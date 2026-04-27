@@ -310,10 +310,8 @@ SimRobot 支持通过网络连接实体 NAO 机器人，实时获取其传感器
 - **决策过程**：双击场景树中的 `robot.behaviour` 打开行为视图，实时观察决策树的执行状态
 - **关节与传感器**：通过 `dr representation:JointSensorData` 查看实时关节数据
 
-> 📹 实体机器人连接视频
-> <video controls width="640">
->   <source src="https://raw.githubusercontent.com/Chichi-rabbit/Nao_Bhuman/main/%E5%AE%9E%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA.mp4" type="video/mp4">
-> </video>
+> 📹 实体机器人连接视频  
+> https://raw.githubusercontent.com/Chichi-rabbit/Nao_Bhuman/main/%E5%AE%9E%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA.mp4
 
 ---
 
