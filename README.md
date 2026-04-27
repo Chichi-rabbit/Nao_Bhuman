@@ -204,7 +204,7 @@ dr annotation
 ### 3.5 仿真演示视频
 
 > 📹 **仿真场景演示视频**   
-> `.\"Screencast.webm"`
+> https://raw.githubusercontent.com/Chichi-rabbit/Nao_Bhuman/main/simrobot.mp4
 
 ---
 
