@@ -312,7 +312,7 @@ SimRobot 支持通过网络连接实体 NAO 机器人，实时获取其传感器
 
 > 📹 **实体机器人连接视频**   
 > `<video controls width="640">
-  <source src="https://raw.githubusercontent.com/你的用户名/你的仓库名/main/assets/demo.mp4" type="video/mp4">
+  <source src="https://github.com/Chichi-rabbit/Nao_Bhuman/blob/main/%E5%AE%9E%E4%BD%93%E6%9C%BA%E5%99%A8%E4%BA%BA.mp4"type="video/mp4">
 </video>`
 
 ---
