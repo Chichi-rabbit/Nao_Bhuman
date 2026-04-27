@@ -3,27 +3,32 @@
 ## 概述
 
 SimRobot 是 BHuman 团队专为 RoboCup SPL（标准平台联赛）开发的机器人仿真平台。它支持在纯软件环境中运行完整的机器人控制代码，可用于步态测试、感知调试、策略验证，也可通过网络直接连接实体 NAO 机器人进行实时监控与调试。
-**这篇文档主要介绍使用SimRobot进行代码调试的方法。**
+
+**本文档主要介绍使用 SimRobot 进行代码调试的方法。**
+
+---
+
+## 关于代码来源与复现说明
+
+本项目基于 [BHuman 开源框架](https://github.com/bhuman/BHumanCodeRelease) 进行开发，SimRobot 仿真器本身作为其子模块包含在框架内（位于 `Util/SimRobot/`，上游仓库：https://github.com/bhuman/SimRobot）。
+
+我们在 BHuman 原始代码的基础上进行了针对性的算法修改与功能扩展，由于目前处于备赛阶段，这部分**修改后的代码暂不开源**。
+
+如需复现本文档所描述的仿真调试流程，可直接使用 **BHuman 官方发布的原始代码**：
+
+> 📦 **BHuman 官方代码仓库**：https://github.com/bhuman/BHumanCodeRelease
+
+按照其仓库中的说明完成编译后，即可参照本文档操作 SimRobot。需要注意的是，由于我们的修改涉及机器人控制逻辑，部分仿真行为（如步态表现、感知策略等）可能与原始版本存在差异，但 SimRobot 的界面操作与调试流程本身是通用的，不受影响。
 
 ---
 
 ## 一、安装与编译
 
-### 1.1 代码位置
-
-SimRobot 作为 BHuman 框架的子项目存在，源代码位于：
-
-```
-Util/SimRobot/
-```
-
-上游仓库地址：https://github.com/bhuman/SimRobot.git
-
-### 1.2 编译方式
+### 1.1 编译方式
 
 以下三种方式均可编译 SimRobot，推荐根据工作习惯选择其中一种：
 
-**方式一：CLion（推荐）**  
+**方式一：CLion**  
 在 CLion 右上角的运行配置下拉框中选择 `SimRobot`，直接点击编译并运行。
 
 **方式二：命令行**  
