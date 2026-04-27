@@ -311,7 +311,9 @@ SimRobot 支持通过网络连接实体 NAO 机器人，实时获取其传感器
 - **关节与传感器**：通过 `dr representation:JointSensorData` 查看实时关节数据
 
 > 📹 **实体机器人连接视频**   
-> `"C:\Users\HP\Desktop\ros文档\上半场2.MP4"`
+> `<video controls width="640">
+  <source src="https://raw.githubusercontent.com/你的用户名/你的仓库名/main/assets/demo.mp4" type="video/mp4">
+</video>`
 
 ---
 
